@@ -1,0 +1,8 @@
+[
+    {
+        "file": "game:blocktypes/clay/brick.json",
+        "op": "replace",
+        "path": "/attributes/heatResistance",
+        "value": 0.9
+    },
+]

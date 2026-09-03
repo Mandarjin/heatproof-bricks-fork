@@ -1,0 +1,14 @@
+{
+  "type": "content",
+  "modid": "heatproofbricks",
+  "name": "Heatproof Bricks",
+  "authors": ["brayanluc"],
+  "description": "Firebricks handle heat damage better, and tier 3 doesn't break anymore! (Config Lib Support)",
+  "version": "1.2.0",
+  "side": "Universal",
+  "requiredOnClient": true,
+  "requiredOnServer": true,
+  "dependencies": {
+    "game": ""
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "patches": {
+    "float": {
+      "game:blocktypes/clay/brick.json": {
+        "0/value": "BRICK_HEATRES"
+      },
+      "heatproofbricks:patches/blocktypes/clay/door-kiln.json": {
+        "0/value": "DOOR_TIER1_RES",
+        "1/value": "DOOR_TIER2_RES",
+        "2/value": "DOOR_TIER3_RES"
+      },
+      "heatproofbricks:patches/blocktypes/clay/refractorybrick.json": {
+        "0/value": "REFRACTORY_TIER1_RES",
+        "1/value": "REFRACTORY_TIER2_RES",
+        "2/value": "REFRACTORY_TIER3_RES"
+      },
+      "heatproofbricks:patches/blocktypes/clay/refractorybrickgrating.json": {
+        "0/value":"GRATING_FIRE_RES",
+        "1/value": "GRATING_TIER1_RES",
+        "2/value": "GRATING_TIER2_RES",
+        "3/value": "GRATING_TIER3_RES"
+      }
+    }
+  },
+  "settings": {
+    "float": {
+      "BRICK_HEATRES": {
+        "name": "Fire Clay Bricks",
+        "comment": "Default game value : 0.5",
+        "default": 0.9,
+        "range": {
+          "min": 0.0,
+          "max": 1.0,
+          "step": 0.01
+        }
+      },
+      "DOOR_TIER1_RES": {
+        "name": "Kiln Door (Tier 1)",
+        "comment": "Default game value : 0.9",
+        "default": 0.95,
+        "range": {
+          "min": 0.0,
+          "max": 1.0,
+          "step": 0.01
+        }
+      },
+      "DOOR_TIER2_RES": {
+        "name": "Kiln Door (Tier 2)",
+        "comment": "Default game value : 0.95",
+        "default": 0.99,
+        "range": {
+          "min": 0.0,
+          "max": 1.0,
+          "step": 0.01
+        }
+      },
+      "DOOR_TIER3_RES": {
+        "name": "Kiln Door (Tier 3)",
+        "comment": "Default game value : 0.999",
+        "default": 1.0,
+        "range": {
+          "min": 0.0,
+          "max": 1.0,
+          "step": 0.01
+        }
+      },
+      "REFRACTORY_TIER1_RES": {
+        "name": "Refractory Bricks (Tier 1)",
+        "comment": "Default game value : 0.9",
+        "default": 0.95,
+        "range": {
+          "min": 0.0,
+          "max": 1.0,
+          "step": 0.01
+        }
+      },
+      "REFRACTORY_TIER2_RES": {
+        "name": "Refractory Bricks (Tier 2)",
+        "comment": "Default game value : 0.95",
+        "default": 0.99,
+        "range": {
+          "min": 0.0,
+          "max": 1.0,
+          "step": 0.01
+        }
+      },
+      "REFRACTORY_TIER3_RES": {
+        "name": "Refractory Bricks (Tier 3)",
+        "comment": "Default game value : 0.999",
+        "default": 1.0,
+        "range": {
+          "min": 0.0,
+          "max": 1.0,
+          "step": 0.01
+        }
+      },
+      "GRATING_FIRE_RES": {
+        "name": "Refractory Brick Grating (Fire Clay)",
+        "comment": "Default game value : 0.5",
+        "default": 0.9,
+        "range": {
+          "min": 0.0,
+          "max": 1.0,
+          "step": 0.01
+        }
+      },
+      "GRATING_TIER1_RES": {
+        "name": "Refractory Brick Grating (Tier 1)",
+        "comment": "Default game value : 0.9",
+        "default": 0.95,
+        "range": {
+          "min": 0.0,
+          "max": 1.0,
+          "step": 0.01
+        }
+      },
+      "GRATING_TIER2_RES": {
+        "name": "Refractory Brick Grating (Tier 2)",
+        "comment": "Default game value : 0.95",
+        "default": 0.99,
+        "range": {
+          "min": 0.0,
+          "max": 1.0,
+          "step": 0.01
+        }
+      },
+      "GRATING_TIER3_RES": {
+        "name": "Refractory Brick Grating (Tier 3)",
+        "comment": "Default game value : 0.999",
+        "default": 1.0,
+        "range": {
+          "min": 0.0,
+          "max": 1.0,
+          "step": 0.01
+        }
+      }
+    }
+  }
+}
