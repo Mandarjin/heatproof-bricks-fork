@@ -2,7 +2,7 @@
   "version": 1,
   "patches": {
     "float": {
-      "game:blocktypes/clay/brick.json": {
+      "heatproofbricks:patches/blocktypes/clay/brick.json": {
         "0/value": "BRICK_HEATRES"
       },
       "heatproofbricks:patches/blocktypes/clay/door-kiln.json": {
